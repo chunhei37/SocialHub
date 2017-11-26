@@ -1,7 +1,10 @@
+.nounderline{
+    text-decoration: none !important
+}
+
 .badge-notify{
    background:red;
    position:relative;
-   top: -10px;
    left: -5px;
 }
 
@@ -9,4 +12,81 @@
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* ============ Class Styles =============== */
+
+.about_details
+{
+    margin: 5px 0px;
+}
+
+/* Element Styles */
+body
+{
+    background-color: rgb(245, 245, 245);
+}
+
+hr
+{
+    margin: 0px 8px;
+}
+
+/* ============ ID Styles ================= */
+#about_card
+{
+    margin-top: 15px;
+}
+
+#left_column
+{
+    padding: 10px 40px;
+}
+
+#page_content
+{
+    margin-top: 15px;
+}
+
+#about_header
+{
+    display: inline;
+}
+
+#right_column
+{
+    padding: 10px 20px; 
+}
+
+/*Search Bar*/
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .fa-search{
+    font-size: 23px;
 }
